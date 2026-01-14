@@ -20,22 +20,7 @@ public class Student
     {
         return studentId;
     }
-
-    public String getName() 
-    {
-        return name;
-    }
-
-    public String getBranch() 
-    {
-        return branch;
-    }
-
-    public double getCgpa() 
-    {
-        return cgpa;
-    }
-
+    
     // Overriding the toString method to display student details
     @Override
     public String toString() 
@@ -60,4 +45,5 @@ public class Student
     }
 
 }
+
 
